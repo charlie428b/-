@@ -18,7 +18,7 @@
         Dim eryd As Boolean = False
 
         If ComboBox1.Text = "::" Then
-            MsgBox("版本2.03.0020")
+            MsgBox("版本2.03.0021")
             ComboBox1.Text = Nothing
             Exit Sub
         End If
