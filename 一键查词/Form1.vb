@@ -18,7 +18,7 @@
         Dim eryd As Boolean = False
 
         If ComboBox1.Text = "::" Then
-            MsgBox("版本2.03.0024")
+            MsgBox("版本2.03.0023")
             ComboBox1.Text = Nothing
             Exit Sub
         End If
@@ -54,10 +54,9 @@
         Try
             AppActivate("必应词典")
         Catch ey As ArgumentException
-            Shell("C:\Users\持冰\Desktop\bing.lnk")
-            'My.Computer.Keyboard.SendKeys("^{ESC}")
-            'mv(314, 597)
-            'Timeropenbing.Start()
+            My.Computer.Keyboard.SendKeys("^{ESC}")
+            mv(314, 597)
+            Timeropenbing.Start()
             erby = True
         End Try
         If erby = False Then
