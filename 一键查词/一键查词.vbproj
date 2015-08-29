@@ -13,6 +13,7 @@
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <IsWebBootstrapper>true</IsWebBootstrapper>
+    <TargetFrameworkProfile />
     <PublishUrl>D:\OneDrive\VSDocument\一键查词\publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Web</InstallFrom>
@@ -27,7 +28,7 @@
     <CreateWebPageOnPublish>true</CreateWebPageOnPublish>
     <WebPage>publish.htm</WebPage>
     <OpenBrowserOnPublish>false</OpenBrowserOnPublish>
-    <ApplicationRevision>20</ApplicationRevision>
+    <ApplicationRevision>23</ApplicationRevision>
     <ApplicationVersion>2.3.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -131,6 +132,12 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <Compile Include="SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Form1.resx">
@@ -141,6 +148,9 @@
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

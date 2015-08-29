@@ -12,13 +12,13 @@
     Public Const VK_RIGHT = &H27
     Public Const VK_D = &H44
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Public Sub Button1_Click() Handles Button1.Click
 
         Dim erby As Boolean = False
         Dim eryd As Boolean = False
 
         If ComboBox1.Text = "::" Then
-            MsgBox("版本2.03.0023")
+            MsgBox("版本2.03.0024")
             ComboBox1.Text = Nothing
             Exit Sub
         End If
