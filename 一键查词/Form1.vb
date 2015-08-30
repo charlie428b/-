@@ -18,7 +18,7 @@
         Dim eryd As Boolean = False
 
         If ComboBox1.Text = "::" Then
-            MsgBox("版本2.03.0024")
+            MsgBox("版本2.03.0025")
             ComboBox1.Text = Nothing
             Exit Sub
         End If
@@ -125,6 +125,10 @@
         mouse(MOUSEEVENTF_LEFTDOWN, 0, 0, 0, 0)
         mouse(MOUSEEVENTF_LEFTUP, 0, 0, 0, 0)
         TimerOpenDesk.Stop()
+    End Sub
+
+    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
+        Button1_Click()
     End Sub
 
     'Private Sub TimerOpenDesk2_Tick(sender As Object, e As EventArgs) Handles TimerOpenDesk2.Tick
