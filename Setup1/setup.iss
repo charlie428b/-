@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "一键查词"
-#define MyAppVersion "2.03.0023"
+#define MyAppVersion "2.03.0025"
 #define MyAppPublisher "刘持冰"
 #define MyAppURL "http://charlie428b.github.io/"
 #define MyAppExeName "一键查词.exe"
