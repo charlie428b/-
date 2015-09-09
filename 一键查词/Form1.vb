@@ -18,7 +18,7 @@
         Dim eryd As Boolean = False
 
         If ComboBox1.Text = "::" Then
-            MsgBox("版本2.03.0025")
+            MsgBox("版本2.03.0026")
             ComboBox1.Text = Nothing
             Exit Sub
         End If
@@ -42,7 +42,7 @@
         Try
             AppActivate("有道词典")
         Catch ex As ArgumentException
-            Shell("C:\Users\持冰\AppData\Local\Youdao\Dict\Application\YodaoDict.exe")
+            Shell("D:\Program Files (x86)\Youdao\Dict\YodaoDict.exe")
             eryd = True
         End Try
         If eryd = False Then
