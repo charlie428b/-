@@ -2,7 +2,7 @@
 ; SEE THE DOCUMENTATION FOR DETAILS ON CREATING INNO SETUP SCRIPT FILES!
 
 #define MyAppName "一键查词"
-#define MyAppVersion "2.03.0025"
+#define MyAppVersion "2.03.0028"
 #define MyAppPublisher "刘持冰"
 #define MyAppURL "http://charlie428b.github.io/"
 #define MyAppExeName "一键查词.exe"
@@ -22,9 +22,9 @@ AppUpdatesURL={#MyAppURL}
 DefaultDirName={pf}\{#MyAppName}
 DefaultGroupName={#MyAppName}
 DisableProgramGroupPage=yes
-OutputDir=D:\GitHub\一键查词
+OutputDir=D:\GitHub\-
 OutputBaseFilename=setup
-SetupIconFile=D:\GitHub\一键查词\一键查词\ico.ico
+SetupIconFile=D:\GitHub\-\一键查词\ico.ico
 Compression=lzma
 SolidCompression=yes
 
@@ -35,8 +35,8 @@ Name: "chinesesimplified"; MessagesFile: "compiler:Languages\ChineseSimplified.i
 Name: "desktopicon"; Description: "{cm:CreateDesktopIcon}"; GroupDescription: "{cm:AdditionalIcons}"; Flags: unchecked
 
 [Files]
-Source: "D:\GitHub\一键查词\一键查词\bin\Release\一键查词.exe"; DestDir: "{app}"; Flags: ignoreversion
-Source: "D:\GitHub\一键查词\一键查词\bin\Release\一键查词.exe.config"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\GitHub\-\一键查词\bin\Release\一键查词.exe"; DestDir: "{app}"; Flags: ignoreversion
+Source: "D:\GitHub\-\一键查词\bin\Release\一键查词.exe.config"; DestDir: "{app}"; Flags: ignoreversion
 ; NOTE: Don't use "Flags: ignoreversion" on any shared system files
 
 [Icons]
