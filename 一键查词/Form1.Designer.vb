@@ -34,6 +34,10 @@ Partial Class Form1
         Me.TimerSnap2 = New System.Windows.Forms.Timer(Me.components)
         Me.TimerOpenDesk = New System.Windows.Forms.Timer(Me.components)
         Me.TimerOpenDesk2 = New System.Windows.Forms.Timer(Me.components)
+        Me.TimerContinue = New System.Windows.Forms.Timer(Me.components)
+        Me.TimerTypeY = New System.Windows.Forms.Timer(Me.components)
+        Me.TimerTypeB = New System.Windows.Forms.Timer(Me.components)
+        Me.TimerClose = New System.Windows.Forms.Timer(Me.components)
         Me.TableLayoutPanel2.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -107,6 +111,20 @@ Partial Class Form1
         '
         Me.TimerOpenDesk2.Interval = 500
         '
+        'TimerContinue
+        '
+        Me.TimerContinue.Interval = 300
+        '
+        'TimerTypeY
+        '
+        '
+        'TimerTypeB
+        '
+        '
+        'TimerClose
+        '
+        Me.TimerClose.Interval = 1000
+        '
         'Form1
         '
         Me.AcceptButton = Me.Button1
@@ -139,5 +157,8 @@ Partial Class Form1
     Friend WithEvents TimerSnap2 As System.Windows.Forms.Timer
     Friend WithEvents TimerOpenDesk As System.Windows.Forms.Timer
     Friend WithEvents TimerOpenDesk2 As System.Windows.Forms.Timer
-
+    Friend WithEvents TimerContinue As Timer
+    Friend WithEvents TimerTypeY As Timer
+    Friend WithEvents TimerTypeB As Timer
+    Friend WithEvents TimerClose As Timer
 End Class
